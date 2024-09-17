@@ -1,0 +1,622 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* ##################################################
+
+  Variables
+  
+##################################################### */
+
+.miedo {
+  --color-portada-texto: #fff;
+}
+
+/* ##################################################
+
+  Body
+  
+##################################################### */
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+/* ##################################################
+
+  Barra
+  
+##################################################### */
+
+header {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  height: auto;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+header .nav {
+  height: 80px;
+  width: auto;
+
+  padding: 0 40px;
+
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  header .nav .titulo {
+    font-size: 1.5em;
+
+    min-width: 150px;
+
+    color: var(--color-portada-texto);
+
+    margin: 0;
+    padding: 0;
+  }
+  header .nav nav {
+    width: auto;
+
+    font-size: 1em;
+
+    margin-left: auto;
+    padding: 0;
+  }
+    header .nav nav ul {
+      margin: 0;
+      padding: 0;
+    }
+      header .nav nav ul li {
+        display: inline-block;
+        margin: 0 10px;
+        padding: 0;
+      }
+        header .nav nav ul li a {
+          text-decoration: none;
+          color: var(--color-portada-texto);
+        }
+          header .nav nav ul li:hover a {
+            text-decoration: underline;
+          }
+
+/* ##################################################
+
+  Portada
+  
+##################################################### */
+
+.portada {
+  height: 100vh;
+  width: 100%;
+
+  padding-top: 0;
+
+  background-color: #000;
+
+  color: #fff;
+}
+  .portada .centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+
+    background-image: url("../img/miedo/apocalypse-2273069_1280 2.jpg");
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: 100%;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+  }
+  .portada .centro .caja .titulo {
+    width: 100%;
+  }
+    .portada .centro .caja {
+      text-align: center;
+      margin-top: auto;
+      margin-bottom: 20px;
+    }
+      .portada .centro .caja .titulo-1 {
+        font-size: 1em;
+      }
+      .portada .centro .caja .titulo-2 {
+        font-size: 1.5em;
+      }
+      .portada .centro .caja .titulo-3 {
+        font-size: 3.5em;
+      }
+
+/* ##################################################
+
+  Secciones conteido
+  
+##################################################### */
+
+/* ##################################################
+  Seccion basica
+##################################################### */
+
+.seccion-basica {
+  background-color: #000;
+
+  color: #fff;
+
+  padding: 50px 10%;
+}
+.seccion-basica-2 {
+  background-color: #111;
+
+  color: #fff;
+
+  padding: 50px 10%;
+}
+
+.seccion-basica .sub-titulo, .seccion-basica-2 .sub-titulo{
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+.seccion-basica .titulo, .seccion-basica-2 .titulo{
+  margin-top: 0;
+}
+
+/* ##################################################
+  Invitacion
+##################################################### */
+
+.invitacion {
+}
+
+/* ##################################################
+  Seccion-2
+##################################################### */
+
+.seccion-2 {
+  padding: 50px 25%;
+
+  text-align: center;
+}
+
+/* ##################################################
+  Seccion-4
+##################################################### */
+
+.seccion-4 {
+  padding: 50px 20%;
+
+  text-align: center;
+}
+
+/* ##################################################
+  Seccion-6
+##################################################### */
+
+.seccion-6 {
+  padding: 50px 15%;
+
+  text-align: center;
+}
+
+/* ##################################################
+  Seccion-6
+##################################################### */
+
+.seccion-mayor {
+  padding: 0px 20%;
+
+  height: 100vh;
+
+  text-align: center;
+}
+
+/* ##################################################
+  Dt
+##################################################### */
+
+.seccion-dt {
+  padding: 0px 30%;
+
+  height: 100vh;
+
+  text-align: center;
+}
+
+.seccion-dt .caja {
+  background-color: #000;
+
+  border-radius: 10px;
+}
+
+/* ##################################################
+  Footer
+##################################################### */
+
+footer {
+  background-color: #000;
+
+  color: #fff;
+
+  padding: 50px 10%;
+}
+  footer .copy {
+    text-align: center;
+  }
+
+/* ##################################################
+
+  cajas
+  
+##################################################### */
+
+.centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+}
+.centro-no {
+  display: flex;
+
+  height: 100%;
+  width: 100%;
+}
+
+.caja {
+  width: 100%;
+}
+.caja-2 {
+  width: 50%;
+}
+.caja-3 {
+  width: 33.33%;
+}
+  .contra-caja-3 {
+    width: 66.66%;
+  }
+.caja-4 {
+  width: 25%;
+}
+  .contra-caja-4 {
+    width: 75%;
+  }
+.caja-5 {
+  width: 20%;
+}
+  .contra-caja-5 {
+    width: 80%;
+  }
+
+.caja-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja-d {
+  margin-left: auto;
+}
+
+/* ##################################################
+
+  img
+  
+##################################################### */
+
+img {
+  border-radius: 10px;
+}
+
+/* ##################################################
+
+  H
+  
+##################################################### */
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.5em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: .5em;
+}
+p {
+  font-size: 1em;
+  line-height: 2em;
+}
+
+/* ##################################################
+
+    Botones
+
+##################################################### */
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.b-none {
+  cursor:default;
+  pointer-events: none;
+  opacity: 0.5;
+}
+/*a.b-none::before {
+  content: "Proximamente";
+}*/
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .visually-hidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * The use of `table` rather than `block` is only necessary if using
+ * `::before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
