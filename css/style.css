@@ -450,6 +450,10 @@ footer {
   img {
     width: 100% !important;
   }
+
+  footer * {
+    text-align: center;
+  }
   .responsivo {
     display: block;
     width: auto;
@@ -458,15 +462,15 @@ footer {
     width: auto;
   }
   .seccion-basica, .seccion-basica-2 {
-    /*padding: 50px 1%;*/
+    padding: 50px 10%;
   }
 
-  .seccion-2 {
+  /*.seccion-2 {
     padding: 50px 25%;
   }
   .seccion-2 {
     padding: 50px 20%;
-  }
+  }*/
 
   h1 {
     font-size: 2.5em !important;
