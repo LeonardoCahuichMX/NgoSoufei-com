@@ -463,6 +463,9 @@ footer {
   }
   .seccion-basica, .seccion-basica-2 {
     padding: 50px 10%;
+    text-align: left !important;
+  }
+  .seccion-basica p, .seccion-basica-2 p {
     text-align: justify !important;
   }
 
