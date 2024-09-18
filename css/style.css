@@ -173,6 +173,24 @@ header .nav {
             text-decoration: underline;
           }
 
+@media only screen and (max-width: 560px) {
+  header .nav {
+    display: block;
+    height: auto;
+    margin-top: 20px;
+  }
+  header .nav .titulo {
+    width: 100% !important;
+    text-align: center;
+
+    margin-bottom: 20px;
+  }
+  header .nav nav {
+    margin-left: 0 !important;
+    width: 100% !important;
+    text-align: center;
+  }
+}
 /* ##################################################
 
   Portada
@@ -198,11 +216,10 @@ header .nav {
     width: 100%;
 
     background-image: url("../img/miedo/apocalypse-2273069_1280 2.jpg");
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: 100%;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
@@ -225,6 +242,27 @@ header .nav {
         font-size: 3.5em;
       }
 
+/*@media only screen and (max-width: 560px) {
+  .portada .centro {
+    background-position-x: initial;
+    background-position-y: center;
+    background-size: 250%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .portada .centro {
+    background-position-x: initial;
+    background-position-y: center;
+    background-size: 200%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .portada .centro {
+    background-position-x: initial;
+    background-position-y: center;
+    background-size: 150%;
+  }
+}*/
 /* ##################################################
 
   Secciones conteido
@@ -361,6 +399,10 @@ footer {
   width: 100%;
 }
 
+.c-caja {
+
+}
+
 .caja {
   width: 100%;
 }
@@ -394,6 +436,50 @@ footer {
 
 .caja-d {
   margin-left: auto;
+}
+
+@media only screen and (max-width: 850px) {
+  /* Style adjustments for viewports that meet the condition */
+  /*.caja, .caja-2, .caja-3, .caja-4, .caja-5, .caja-6, .contra-caja-2, .contra-caja-3, .contra-caja-4, .contra-caja-5, .contra-caja-6, .caja-center, .caja-d {
+    display: block;
+    width: 100%;
+  }*/
+  body {
+    overflow-x: hidden;
+  }
+  img {
+    width: 100% !important;
+  }
+  .responsivo {
+    display: block;
+    width: auto;
+  }
+  .r-caja {
+    width: auto;
+  }
+  .seccion-basica, .seccion-basica-2 {
+    /*padding: 50px 1%;*/
+  }
+
+  .seccion-2 {
+    padding: 50px 25%;
+  }
+  .seccion-2 {
+    padding: 50px 20%;
+  }
+
+  h1 {
+    font-size: 2.5em !important;
+  }
+  h2 {
+    font-size: 2em !important;
+  }
+  h3 {
+    font-size: 1.5em !important;
+  }
+  h4 {
+    font-size: 1.2em !important;
+  }
 }
 
 /* ##################################################
