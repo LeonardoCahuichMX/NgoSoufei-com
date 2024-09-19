@@ -101,7 +101,7 @@ textarea {
 }
 .vas {
   --color-portada-texto: #fff;
-  --foto-portada: url("../img/vas/IMG_8280.png");
+  --foto-portada: url("../img/vas/IMG_8280.jpeg");
 }
 
 /* ##################################################
@@ -472,7 +472,7 @@ header .nav {
 ##################################################### */
 
 .coleccion-vas {
-  background-image: url("../img/vas/IMG_8572.png");
+  background-image: url("../img/vas/IMG_8572.jpeg");
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
