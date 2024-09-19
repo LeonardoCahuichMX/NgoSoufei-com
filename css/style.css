@@ -374,17 +374,6 @@ header .nav {
     color: #000;
   }
 
-.seccion-ce {
-  height: 100vh;
-  background-color: #000;
-
-  color: #fff;
-
-  padding: 0px 10%;
-  margin: 20px 2%;
-  border-radius: 10px;
-}
-
 .seccion-basica .sub-titulo, .seccion-basica-2 .sub-titulo, .seccion-ce .sub-titulo {
   font-weight: normal;
   margin-bottom: 5px;
@@ -467,6 +456,17 @@ header .nav {
 /* ##################################################
   Coleccion miedo
 ##################################################### */
+
+.seccion-ce {
+  height: 80vh;
+  background-color: #000;
+
+  color: #fff;
+
+  padding: 0px 10%;
+  margin: 20px 10%;
+  border-radius: 10px;
+}
 
 .coleccion-miedo {
   background-image: url("../img/Inicio/IMG_8663.jpeg");
