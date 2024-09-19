@@ -552,12 +552,12 @@ header .nav {
   Secciones vas
 ##################################################### */
 
-.seccion-basica {
+.vas .seccion-basica {
   background-color: #fff;
 
   color: #000;
 }
-.seccion-basica-2 {
+.vas .seccion-basica-2 {
   background-color: #fff;
 
   color: #000;
@@ -567,7 +567,7 @@ header .nav {
   Invitacion
 ##################################################### */
 
-.invitacion {
+.vas .invitacion {
 }
 
 .exhibidor-d .caja-3 {
@@ -578,7 +578,7 @@ header .nav {
   Seccion-vas-1
 ##################################################### */
 
-.seccion-vas-1 {
+.vas .seccion-vas-1 {
   padding: 50px 25%;
 
   text-align: center;
