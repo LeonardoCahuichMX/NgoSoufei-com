@@ -368,6 +368,9 @@ header .nav {
     background-color: #fff;
     color: #fff;
   }
+  .miedo .seccion-basica {
+    padding: 100px 10%;
+  }
 .seccion-basica-2 {
   background-color: #111;
 
@@ -378,6 +381,9 @@ header .nav {
   .inicio .seccion-basica-2 {
     background-color: #fff;
     color: #000;
+  }
+  .miedo .seccion-basica-2 {
+    padding: 100px 10%;
   }
 
 .seccion-basica .sub-titulo, .seccion-basica-2 .sub-titulo, .seccion-ce .sub-titulo {
