@@ -762,7 +762,7 @@ p {
 
 ##################################################### */
 
-a {
+/*a {
   color: inherit;
 }
 
@@ -775,9 +775,6 @@ a.b-none {
   cursor:default;
   pointer-events: none;
   opacity: 0.5;
-}
-/*a.b-none::before {
-  content: "Proximamente";
 }*/
 
 /* ##################################################
