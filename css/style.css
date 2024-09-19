@@ -358,6 +358,10 @@ header .nav {
 
   padding: 50px 10%;
 }
+  .inicio .seccion-basica {
+    background-color: #fff;
+    color: #fff;
+  }
 .seccion-basica-2 {
   background-color: #111;
 
@@ -365,6 +369,10 @@ header .nav {
 
   padding: 50px 10%;
 }
+  .inicio .seccion-basica-2 {
+    background-color: #fff;
+    color: #000;
+  }
 
 .seccion-ce {
   height: 100vh;
@@ -415,6 +423,30 @@ header .nav {
 .inicio .invitacion .titulo {
   border-bottom: 5px solid #000;
 }
+
+/* ##################################################
+  Inicio seccion 1
+##################################################### */
+
+.inicio .inicio-s-1 {
+  padding: 50px 2%;
+  height: auto;
+}
+.inicio .inicio-s-1 .caja {
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+.inicio .inicio-s-1 .caja .interior {
+  writing-mode:vertical-lr;
+  text-orientation:upright;
+}
+  .inicio .inicio-s-1 .caja .interior h1 {
+    font-size: 2.5em;
+  }
+  .inicio .inicio-s-1 .caja .caja-center {
+    margin-top: auto;
+  }
 
 /* ##################################################
   Coleccion miedo
