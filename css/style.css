@@ -99,6 +99,10 @@ textarea {
   --color-portada-texto: #fff;
   --foto-portada: url("../img/miedo/apocalypse-2273069_1280 2.jpg");
 }
+.vas {
+  --color-portada-texto: #fff;
+  --foto-portada: url("../img/vas/IMG_8280.png");
+}
 
 /* ##################################################
 
@@ -256,6 +260,23 @@ header .nav {
     background-color: #fff;
     color: #000;
   }
+  .vas .portada .centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+
+    background-image: var(--foto-portada);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+  }
   
   .inicio .portada .centro .caja .titulo {
     width: auto;
@@ -263,7 +284,7 @@ header .nav {
   .miedo .portada .centro .caja .titulo {
     width: 100%;
   }
-    .miedo .portada .centro .caja {
+    .miedo .portada .centro .caja, .vas .portada .centro .caja {
       text-align: center;
       margin-top: auto;
       margin-bottom: 20px;
@@ -279,7 +300,7 @@ header .nav {
         writing-mode:vertical-lr;
         text-orientation:upright;
       }
-      .miedo .portada .centro .caja .titulo-1 {
+      .miedo .portada .centro .caja .titulo-1, .vas .portada .centro .caja .titulo-1 {
         font-size: 1em;
       }
       .inicio .portada .centro .caja .titulo-2 {
@@ -287,7 +308,7 @@ header .nav {
         writing-mode:vertical-lr;
         text-orientation:upright;
       }
-      .miedo.portada .centro .caja .titulo-2 {
+      .miedo.portada .centro .caja .titulo-2, .vas .portada .centro .caja .titulo-2 {
         font-size: 1.5em;
       }
       .inicio .portada .centro .caja .titulo-3 {
@@ -295,7 +316,7 @@ header .nav {
         writing-mode:vertical-lr;
         text-orientation:upright;
       }
-      .miedo .portada .centro .caja .titulo-3 {
+      .miedo .portada .centro .caja .titulo-3, .vas .portada .centro .caja .titulo-3 {
         font-size: 3.5em;
       }
 
@@ -415,6 +436,25 @@ header .nav {
 }
 
 /* ##################################################
+  Coleccion vas
+##################################################### */
+
+.coleccion-vas {
+  background-image: url("../img/vas/IMG_8572.png");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+
+  text-align: center;
+
+  padding: 0px 20%;
+}
+
+/* ##################################################
 
   Secciones Miedo
 ##################################################### */
@@ -479,6 +519,16 @@ header .nav {
   text-align: center;
 }
 
+.vas .seccion-mayor {
+  padding: 50px 20%;
+
+  height: auto;
+
+  text-align: center;
+
+  background-color: #fff;
+  color: #000;
+}
 /* ##################################################
   Dt
 ##################################################### */
@@ -495,6 +545,43 @@ header .nav {
   background-color: #000;
 
   border-radius: 10px;
+}
+
+/* ##################################################
+
+  Secciones vas
+##################################################### */
+
+.seccion-basica {
+  background-color: #fff;
+
+  color: #000;
+}
+.seccion-basica-2 {
+  background-color: #fff;
+
+  color: #000;
+}
+
+/* ##################################################
+  Invitacion
+##################################################### */
+
+.invitacion {
+}
+
+.exhibidor-d .caja-3 {
+  text-align: right;
+}
+
+/* ##################################################
+  Seccion-vas-1
+##################################################### */
+
+.seccion-vas-1 {
+  padding: 50px 25%;
+
+  text-align: center;
 }
 
 /* ##################################################
