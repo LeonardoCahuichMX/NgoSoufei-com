@@ -773,6 +773,9 @@ footer {
   .seccion-basica p, .seccion-basica-2 p {
     text-align: justify !important;
   }
+  .vas .seccion-vas-1 {
+    padding: 50px 10%;
+  }
 
   /*.seccion-2 {
     padding: 50px 25%;
