@@ -210,6 +210,12 @@ header .nav {
 
     margin-bottom: 20px;
   }
+  header .nav .sub-titulo {
+    width: 100% !important;
+    text-align: center;
+
+    margin-bottom: 20px;
+  }
   header .nav nav {
     margin-left: 0 !important;
     width: 100% !important;
