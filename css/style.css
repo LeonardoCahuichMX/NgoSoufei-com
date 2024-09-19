@@ -402,11 +402,27 @@ header .nav {
   titulo de areas
 ##################################################### */
 .titulo-col {
-  height: 400px;
+  height: 100vh;
+  width: 90%;
+
+  padding: 50px 5%;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  writing-mode:vertical-lr;
+  text-orientation:upright;
+}
+.titulo-col .chino {
+  font-size: 5.5em;
+  margin-right: 1px;
+  margin-left: 0;
+}
+.titulo-col p {
+  margin-left: 1px;
+  margin-right: 0;
+  font-size: 1.4em;
 }
 /* ##################################################
   Invitacion
