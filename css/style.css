@@ -776,6 +776,15 @@ footer {
   .vas .seccion-vas-1 {
     padding: 50px 10%;
   }
+  .vas .exhibidor {
+    text-align: center !important;
+  }
+  .vas .exhibidor-d .caja-3 {
+    text-align: center !important;
+  }
+  .vas .exhibidor p, .vas .exhibidor-d p {
+    text-align: center !important;
+  }
 
   /*.seccion-2 {
     padding: 50px 25%;
