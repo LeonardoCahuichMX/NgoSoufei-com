@@ -111,9 +111,6 @@ textarea {
 ##################################################### */
 
 body {
-  margin: 0;
-  padding: 0;
-
   font-family: "Open Sans", sans-serif;
 }
 
@@ -686,62 +683,6 @@ footer {
   
 ##################################################### */
 
-.centro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  height: 100%;
-  width: 100%;
-}
-.centro-no {
-  display: flex;
-
-  height: 100%;
-  width: 100%;
-}
-
-.c-caja {
-
-}
-
-.caja-auto {
-  width: auto;
-}
-.caja {
-  width: 100%;
-}
-.caja-2 {
-  width: 50%;
-}
-.caja-3 {
-  width: 33.33%;
-}
-  .contra-caja-3 {
-    width: 66.66%;
-  }
-.caja-4 {
-  width: 25%;
-}
-  .contra-caja-4 {
-    width: 75%;
-  }
-.caja-5 {
-  width: 20%;
-}
-  .contra-caja-5 {
-    width: 80%;
-  }
-
-.caja-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.caja-d {
-  margin-left: auto;
-}
 
 @media only screen and (max-width: 850px) {
   /* Style adjustments for viewports that meet the condition */
@@ -749,22 +690,8 @@ footer {
     display: block;
     width: 100%;
   }*/
-  body {
-    overflow-x: hidden;
-  }
-  img {
-    width: 100% !important;
-  }
-
   footer * {
     text-align: center;
-  }
-  .responsivo {
-    display: block;
-    width: auto;
-  }
-  .r-caja {
-    width: auto;
   }
   .seccion-basica, .seccion-basica-2 {
     padding: 50px 10%;
@@ -785,66 +712,9 @@ footer {
   .vas .exhibidor p, .vas .exhibidor-d p {
     text-align: center !important;
   }
-
-  /*.seccion-2 {
-    padding: 50px 25%;
-  }
-  .seccion-2 {
-    padding: 50px 20%;
-  }*/
-
-  h1 {
-    font-size: 2.5em !important;
-  }
-  h2 {
-    font-size: 2em !important;
-  }
-  h3 {
-    font-size: 1.5em !important;
-  }
-  h4 {
-    font-size: 1.2em !important;
-  }
 }
 
-/* ##################################################
 
-  img
-  
-##################################################### */
-
-img {
-  border-radius: 10px;
-}
-
-/* ##################################################
-
-  H
-  
-##################################################### */
-
-h1 {
-  font-size: 3em;
-}
-h2 {
-  font-size: 2.5em;
-}
-h3 {
-  font-size: 2em;
-}
-h4 {
-  font-size: 1.5em;
-}
-h5 {
-  font-size: 1em;
-}
-h6 {
-  font-size: .5em;
-}
-p {
-  font-size: 1em;
-  line-height: 2em;
-}
 
 /* ##################################################
 
@@ -867,18 +737,7 @@ a.b-none {
   opacity: 0.5;
 }*/
 
-/* ##################################################
 
-  hr
-  
-##################################################### */
-
-.hr-menor {
-  margin: 0 20%;
-}
-.hr-menor-separador {
-  margin: 100px 20%;
-}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
