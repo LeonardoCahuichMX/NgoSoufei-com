@@ -521,6 +521,10 @@ header .nav {
 .seccion-secciones {
   margin: 0 2%;
 }
+  .seccion-secciones .sub-titulo {
+    margin-bottom: -40px;
+    font-weight: 100;
+  }
   .seccion-secciones .seccion-ce-2 {
     filter: grayscale(80%);
     transition: .5s ease-out all;
@@ -538,6 +542,9 @@ header .nav {
   padding: 0px 10%;
   margin: 20px 2%;
   border-radius: 10px;
+}
+.seccion-ce-2-solo {
+  margin: 20px 1% !important;
 }
 
 .coleccion-miedo {
@@ -561,6 +568,21 @@ header .nav {
 
 .coleccion-vas {
   background-image: url("../img/vas/IMG_8572.jpeg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+
+  text-align: center;
+
+  padding: 0px 20%;
+}
+
+.coleccion-sombras {
+  background-image: url("../img/sombras/74336957249__985C0D44-0A30-435F-8208-1FF88535BBD1.jpeg");
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
