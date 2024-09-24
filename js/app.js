@@ -1,5 +1,11 @@
 $(document).ready(function () {
 
+    var altoHeader = $("header").outerHeight();
+    var ventanaHeader = $(window).outerHeight();
+    //alert(ventanaHeader);
+    $(".inicio .portada").css("padding-top", altoHeader);
+    $(".inicio .portada .centro").css("height", ventanaHeader-altoHeader-10)
+
     /******************************************************************************
  * Fin
  */

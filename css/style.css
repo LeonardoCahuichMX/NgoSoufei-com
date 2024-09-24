@@ -91,7 +91,7 @@ textarea {
 ##################################################### */
 
 .inicio {
-  --color-portada-texto: #000;
+  --color-portada-texto: #fff;
   --foto-portada: url("../img/Inicio/IMG_8663.jpeg");
 }
 
@@ -227,13 +227,16 @@ header .nav {
 
 .portada {
   height: 100vh;
-  width: 100%;
+  width: auto;
 
   padding-top: 0;
 
   background-color: #000;
 
   color: #fff;
+}
+.inicio .portada {
+  padding: 0 20px;
 }
   .miedo .portada .centro {
     display: flex;
@@ -258,9 +261,19 @@ header .nav {
     align-items: center;
 
     height: 100%;
-    width: 100%;
+    width: auto;
 
-    background-color: #fff;
+    /*background-image: var(--foto-portada);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;*/
+    background-color: #ebe2d1;
+
+    border-radius: 10px;
     color: #000;
   }
   .vas .portada .centro {
@@ -269,7 +282,7 @@ header .nav {
     align-items: center;
 
     height: 100%;
-    width: 100%;
+    width: auto;
 
     background-image: var(--foto-portada);
     background-position-x: center;
@@ -292,7 +305,7 @@ header .nav {
       margin-top: auto;
       margin-bottom: 20px;
     }
-    .inicio .portada .centro .caja {
+    .inicio .portada .centro .caja .titulo-pag {
       text-align: center;
       display: flex;
       justify-content: center;
@@ -322,6 +335,15 @@ header .nav {
       .miedo .portada .centro .caja .titulo-3, .vas .portada .centro .caja .titulo-3 {
         font-size: 3.5em;
       }
+
+      .inicio .portada .centro .caja {
+        text-align: center;
+      }
+      /*.inicio .portada .centro .caja p {
+        position: absolute;
+        bottom: -100px;
+        left: auto;
+      }*/
 
 /*@media only screen and (max-width: 560px) {
   .portada .centro {
@@ -446,6 +468,9 @@ header .nav {
 .inicio .inicio-s-1 {
   padding: 50px 2%;
   height: auto;
+
+  background-color: #000;
+  color: #fff;
 }
 .inicio .inicio-s-1 .caja {
   /*display: flex;
@@ -453,7 +478,7 @@ header .nav {
   align-items: center;*/
 }
 .inicio .inicio-s-1 .caja .interior {
-  writing-mode:vertical-lr;
+  writing-mode:vertical-rl;
   text-orientation:upright;
 
   margin: 0 auto;
@@ -490,6 +515,28 @@ header .nav {
 
   padding: 0px 10%;
   margin: 20px 10%;
+  border-radius: 10px;
+}
+
+.seccion-secciones {
+  margin: 0 2%;
+}
+.seccion-secciones .seccion-ce-2 {
+  filter: grayscale(100%);
+  transition: .5s ease-out all;
+}
+.seccion-secciones .seccion-ce-2:hover {
+  filter: grayscale(0%);
+  transition: .5s ease-out all;
+}
+.seccion-ce-2 {
+  height: 90vh;
+  background-color: #000;
+
+  color: #fff;
+
+  padding: 0px 10%;
+  margin: 0px 2%;
   border-radius: 10px;
 }
 
