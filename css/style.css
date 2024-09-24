@@ -521,14 +521,14 @@ header .nav {
 .seccion-secciones {
   margin: 0 2%;
 }
-.seccion-secciones .seccion-ce-2 {
-  filter: grayscale(100%);
-  transition: .5s ease-out all;
-}
-.seccion-secciones .seccion-ce-2:hover {
-  filter: grayscale(0%);
-  transition: .5s ease-out all;
-}
+  .seccion-secciones .seccion-ce-2 {
+    filter: grayscale(80%);
+    transition: .5s ease-out all;
+  }
+  .seccion-secciones .seccion-ce-2:hover {
+    filter: grayscale(0%);
+    transition: .5s ease-out all;
+  }
 .seccion-ce-2 {
   height: 90vh;
   background-color: #000;
@@ -536,7 +536,7 @@ header .nav {
   color: #fff;
 
   padding: 0px 10%;
-  margin: 0px 2%;
+  margin: 20px 2%;
   border-radius: 10px;
 }
 
