@@ -103,6 +103,10 @@ textarea {
   --color-portada-texto: #fff;
   --foto-portada: url("../img/vas/IMG_8280.jpeg");
 }
+.sombras {
+  --color-portada-texto: #000;
+  --foto-portada: url("../img/sombras/74336957249__985C0D44-0A30-435F-8208-1FF88535BBD1 2.jpeg");
+}
 
 /* ##################################################
 
@@ -255,6 +259,23 @@ header .nav {
     background-origin: initial;
     background-clip: initial;
   }
+  .sombras .portada .centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+
+    background-image: var(--foto-portada);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+  }
   .inicio .portada .centro {
     display: flex;
     justify-content: center;
@@ -305,6 +326,13 @@ header .nav {
       margin-top: auto;
       margin-bottom: 20px;
     }
+    .sombras .portada .centro .caja, .vas .portada .centro .caja {
+      text-align: center;
+      margin-top: auto;
+      margin-bottom: 20px;
+
+      /*filter: grayscale(100%);*/
+    }
     .inicio .portada .centro .caja .titulo-pag {
       text-align: center;
       display: flex;
@@ -319,12 +347,18 @@ header .nav {
       .miedo .portada .centro .caja .titulo-1, .vas .portada .centro .caja .titulo-1 {
         font-size: 1em;
       }
+      .sombras .portada .centro .caja .titulo-1, .vas .portada .centro .caja .titulo-1 {
+        font-size: 1em;
+      }
       .inicio .portada .centro .caja .titulo-2 {
         font-size: 1.5em;
         writing-mode:vertical-lr;
         text-orientation:upright;
       }
       .miedo.portada .centro .caja .titulo-2, .vas .portada .centro .caja .titulo-2 {
+        font-size: 1.5em;
+      }
+      .sombras .portada .centro .caja .titulo-2, .vas .portada .centro .caja .titulo-2 {
         font-size: 1.5em;
       }
       .inicio .portada .centro .caja .titulo-3 {
@@ -335,37 +369,13 @@ header .nav {
       .miedo .portada .centro .caja .titulo-3, .vas .portada .centro .caja .titulo-3 {
         font-size: 3.5em;
       }
+      .sombras .portada .centro .caja .titulo-3, .vas .portada .centro .caja .titulo-3 {
+        font-size: 3.5em;
+      }
 
       .inicio .portada .centro .caja {
         text-align: center;
       }
-      /*.inicio .portada .centro .caja p {
-        position: absolute;
-        bottom: -100px;
-        left: auto;
-      }*/
-
-/*@media only screen and (max-width: 560px) {
-  .portada .centro {
-    background-position-x: initial;
-    background-position-y: center;
-    background-size: 250%;
-  }
-}
-@media only screen and (max-width: 850px) {
-  .portada .centro {
-    background-position-x: initial;
-    background-position-y: center;
-    background-size: 200%;
-  }
-}
-@media only screen and (max-width: 1100px) {
-  .portada .centro {
-    background-position-x: initial;
-    background-position-y: center;
-    background-size: 150%;
-  }
-}*/
 /* ##################################################
 
   Secciones conteido
@@ -743,6 +753,11 @@ footer {
 
   color: #fff;
 }
+.sombras footer {
+  background-color: #000;
+
+  color: #fff;
+}
   footer .copy {
     text-align: center;
   }
@@ -784,7 +799,66 @@ footer {
   }
 }
 
+/* ##################################################
 
+  framework
+  
+##################################################### */
+
+.sombras .creditos {
+  background-color: #000;
+  color: #fff;
+}
+
+.sec {
+
+}
+.sec-basica {
+  padding: 50px 10%;
+}
+.sec-basica-15 {
+  padding: 50px 15%;
+  text-align: center;
+}
+.sec-basica-20 {
+  padding: 50px 20%;
+  text-align: center;
+}
+.sec-basica-25 {
+  padding: 50px 25%;
+  text-align: center;
+}
+  .sec .sub-titulo {
+    font-weight: normal;
+    margin-bottom: 5px;
+  }
+  .sec .titulo {
+    margin-top: 0;
+  }
+
+.sec-color-1 {
+  background-color: #000;
+
+  color: #fff;
+}
+.sec-color-2 {
+  background-color: #111;
+
+  color: #fff;
+}
+
+
+.creditos {
+  padding: 0px 20%;
+
+  height: 100vh;
+
+  text-align: center;
+}
+.tecnico {
+  font-family: serif;
+  font-weight: 100;
+}
 
 /* ##################################################
 
